@@ -1,3 +1,6 @@
+# Text Editor
+*.vscode
+
 # Prerequisites
 *.d
 
