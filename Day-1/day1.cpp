@@ -52,8 +52,8 @@ int main() {
 	while(cin >> temp)
 		nums.push_back(temp);
 
-	cout << "Part one result: " << solve_part_one(nums) << endl;
-	cout << "Part two result: " << solve_part_two(nums) << endl;
+	cout << "Day 1 - Part one: " << solve_part_one(nums) << endl;
+	cout << "Day 1 - Part two: " << solve_part_two(nums) << endl;
 
 	return 0;
 }
