@@ -15,12 +15,12 @@ int solve_part_one(int min, int max, char target, string str) {
 }
 
 
-int solve_part_two(int idx1, int idx2, char target, string str) {
-    return int((str[idx1] == target) ^ str[idx2] == target);
+int solve_part_two(int min, int max, char target, string str) {
+    return int((str[min - 1] == target) ^ str[max - 1] == target);
 }
 
 
-int main() {    
+int main() {
     int min, max;
     char target;
     string str;
